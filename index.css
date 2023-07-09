@@ -412,9 +412,9 @@ a:hover {
         z-index: 5;
         display: block;
         cursor: pointer;
+        
 
         appearance: none;
-        background: none;
         outline: none;
         border: none;
     }
@@ -443,7 +443,7 @@ a:hover {
         left: 100%;
         width: 100%;
         min-height: 100vh;
-        background: #bdbbbb2c;
+        background: #08080881;
         padding-top: 100px;
         z-index: 4;
         transition: 0.4s;

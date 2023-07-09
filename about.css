@@ -19,8 +19,7 @@ body {
     font-family: sans-serif;
     font-weight: 600;
     color: white;
-    background: var(--body-bg);
-    background: url(assets/Me.jpg);
+    background: url(assets/giesel\(3\).png);
     background-size: contain;
     letter-spacing: 0.5px;
 }
@@ -417,7 +416,7 @@ a:hover {
         left: 100%;
         width: 100%;
         min-height: 100vh;
-        background: #bdbbbb2c;
+        background: #08080881;
         padding-top: 100px;
         z-index: 4;
         transition: 0.4s;
