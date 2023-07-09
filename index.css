@@ -2,7 +2,7 @@
     --body-bg: rgb(0, 0, 0);
     --theme-bg-color: rgb(255, 255, 255);
     --small-font: 0.8rem;
-    --hover-color: rgba(180, 44, 44, 0.598);
+    --hover-color: rgba(42, 113, 49, 0.743);
 }
 
 html {
@@ -180,7 +180,6 @@ h4 {
     /* display: grid;
     grid-template-columns: repeat(2, 1fr); */
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
     background: #85858567;
@@ -326,9 +325,18 @@ a:hover {
     .wrapper {
         padding: 1.5rem;
     }
+    section {
+        padding: 1rem;
+    }
+    #body {
+        padding: 1rem;
+    }
     #main {
         width: 100%;
         min-width: 300px;
+    }
+    #body {
+        flex-wrap: wrap;
     }
 
     ul {
@@ -345,6 +353,16 @@ a:hover {
 }
 
 @media (max-width: 500px){
+    .intro {
+        height: 60vh;
+    }
+    .wrapper {
+        padding: 1rem;
+    }
+    
+    .intro img.intro-svg{
+        width: 200px;
+    }
     nav {
         display: none;
     }
@@ -355,16 +373,20 @@ a:hover {
         grid-template-columns: 1fr;
     } */
     .introduction {
+        padding-left: 1rem;
         font-size: 1rem;
     }
+    .wrapper {
+        padding-right: 0;
+    }
     footer {
-        padding: 1rem;
+        padding: 2rem;
     }
     form {
         width: 100%;
     }
     .link-container {
-        width: 100%;
+        width: 18%;
         padding: 0;
     }
     section {
