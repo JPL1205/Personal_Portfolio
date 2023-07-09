@@ -225,7 +225,7 @@ input[type=button], input[type=submit], input[type=reset] {
     cursor: pointer;
 }
 
-footer .link-container {
+.link-container {
     padding: 0 4rem;
 }
 
@@ -248,4 +248,52 @@ footer a {
 a:hover {
     color: var(--hover-color);
     border-color: var(--hover-color);
+}
+
+.major h2 {
+    font-size: clamp(2rem, 5vw, 4rem);
+}
+
+.row-4 {
+    flex-wrap: wrap;
+}
+@media (max-width: 800px) {
+    .wrapper {
+        padding: 1.5rem;
+    }
+    #main {
+        width: 100%;
+        min-width: 300px;
+    }
+
+    ul {
+        font-size: 0.6rem;
+    }
+    footer {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 2rem;
+    }
+    .link-container {
+        grid-row: 1;
+    }
+}
+
+@media (max-width: 500px){
+    nav {
+        display: none;
+    }
+    footer {
+        padding: 1rem;
+    }
+    form {
+        width: 100%;
+    }
+    .link-container {
+        width: 100%;
+        padding: 0;
+    }
+    section {
+        padding: 1.5rem;
+    }
 }

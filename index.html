@@ -8,6 +8,80 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <button class="hamburger">
+        <div class="bar"></div>
+    </button>
+    <nav class="mobile-nav"><a href="experience.html">EXPERIENCE</a><a href="ml.html">SOFTWARE DEVELOPMENT & DATA</a><a href="about.html">WEB / DESIGN</a>
+        <img src="assets/name-logo.svg" alt="" id="name-logo">
+    </nav>
+    <div class="wrapper">
+        <div class="intro">
+            <img src="assets/Intro.svg" alt="" class="intro-svg">
+            <h3 class="intro-text">I'm a creator in multdimension</h3>
+        </div>
+        
+        <div class="main">
+            <nav>
+                <ul>
+                    <li class="active"><a href="">HOME</a></li>
+                    <li><a href="experience.html">EXPERIENCE</a></li>
+                    <li><a href="ml.html">SOFTWARE DEVELOPMENT & DATA</a></li>
+                    <li><a href="about.html">WEB & DESIGN</a></li>
+                </ul>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/jian-peng-li-462417220/" target="_blank"><img src="assets/linkedin.png" alt="" class="icon"></a></li>
+                    <li><a href="https://github.com/JPL1205" target="_blank"><img src="assets/github.png" alt="" class="icon"></a></li>
+                </ul>
+            </nav>
+            <section>
+                <header class="major">
+                    <p id="greeting">Hello, I am</p>
+                    <h2>JIAN-PENG (LEO) LI</h2>
+                </header>
+            </section>
+            <div id="body">
+                <p class="introduction">
+                    Proactive Math-CS and Economics double major with a minor in Data Science, seeking a Software Engineering role. As an adaptable immigrant from Taiwan, I've refined robust communication skills and cultivated a knack for quick integration into new environments. My grounding in computer science principles supports my expertise in crafting efficient algorithms and developing scalable systems. I've honed a robust technical skillset including <strong> Python, Java, HTML, CSS, JavaScript, SQL, and R. </strong>
+                </p>
+                <img src="assets/profile.png" alt="" class="profile-picture">
+            </div>
+            <div class="row-4">
+                <a href="">PAST EXPERIENCE</a><a href="">SOFTWARE DEVELOPMENT & DATA</a><a href="">ABOUT</a><a href="">RESUME</a>
+            </div>
+            <footer>
+                <form action="/submit_form" method="post">
+                    <label for="fname">Name</label><br>
+                    <input type="text" id="fname" name="fname" required><br>
+                    <label for="company">Company</label><br>
+                    <select id="position" name="position">
+                        <option value="developer">Individual</option>
+                        <option value="designer">Start Up</option>
+                        <option value="product_manager">Enterprise</option>
+                      </select><br>
+                    <label for="email">Email</label><br>
+                    <input type="text" id="email" name="email" required><br>
+                    <label for="message">Message</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+                    <input type="submit" value="SEND MESSAGE">
+                  </form> 
+                  <div class="link-container">
+                    <div class="link">
+                        <div class="title">Linkedin</div>
+                        <a href="https://www.linkedin.com/in/jian-peng-li-462417220/" target="_blank"><u>https://www.linkedin.com/in/jian-peng-li-462417220/</u></a>
+                    </div>
+                    <div class="link">
+                        <div class="title">Github</div>
+                        <a href="https://github.com/JPL1205" target="_blank"><u>https://github.com/JPL1205</u></a>
+                    </div>
+                    <div class="link">
+                        <div class="title">Email</div>
+                        <a href="mailto:jianpengli1205@gmail.com"><u>jianpengli1205@gmail.com</u></a>
+                    </div>
+                </div>
+            </footer>
+            
+        </div>
+        
+    </div>
 </body>
 </html>
