@@ -197,7 +197,19 @@ h4 {
     width: 350px;
 }
 
+.skills-title{
+    padding: 2rem 2rem;
+}
 
+.skills {
+    padding: 2rem;
+    line-height: 2;
+    font-weight: 300;
+}
+
+section {
+    border-bottom: 1px solid black;
+}
 
 
 .row-4 {
@@ -354,7 +366,7 @@ a:hover {
 
 @media (max-width: 500px){
     .intro {
-        height: 60vh;
+        height: 40vh;
     }
     .wrapper {
         padding: 1rem;
@@ -391,6 +403,9 @@ a:hover {
     }
     section {
         padding: 1.5rem;
+    }
+    .intro-text {
+        margin-top: 5vh;
     }
 }
 
