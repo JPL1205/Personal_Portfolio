@@ -2,7 +2,7 @@
     --body-bg: rgb(0, 0, 0);
     --theme-bg-color: rgb(255, 255, 255);
     --small-font: 0.8rem;
-    --hover-color: rgb(93, 93, 214);
+    --hover-color: rgb(47, 168, 51);
 }
 
 html {
@@ -146,8 +146,7 @@ h4 {
 }
 
 .project {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding: 4rem 5rem;
     text-align: center;
 
     background: var(--theme-bg-color);
@@ -158,6 +157,13 @@ h4 {
     color: rgb(44, 44, 44);
     font-weight: 300;
     margin-bottom: -20px;
+}
+
+.project img {
+    width: 80%;
+    height: 200px;
+    margin-bottom: 3.5rem;
+
 }
 
 .project a {

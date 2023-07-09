@@ -2,7 +2,7 @@
     --body-bg: rgb(0, 0, 0);
     --theme-bg-color: rgb(255, 255, 255);
     --small-font: 0.8rem;
-    --hover-color: rgb(93, 93, 214);
+    --hover-color: rgb(214, 93, 93);
 }
 
 html {
@@ -148,9 +148,61 @@ h4 {
 }
 #body p {
     font-size: var(--small-font);
-    color: #3f3f3f;
+    color: white;
 }
 
+#body .card {
+    height: 300px;
+    box-shadow: 0px 0px 5px gray;
+    overflow: hidden;
+    position: relative;
+}
+#body img {
+    height: 300px;
+    transition: all .5s;
+}
+.intro {
+    height: 50px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0px;
+    background: rgba(26, 27, 27, 0.5);
+    transition: all .5s;
+}
+.intro h5{
+    margin: 10px;
+    font-size: 1.2rem;
+    color: white;
+}
+.intro p{
+    font-size: var(--small-font);
+    font-weight: 300;
+    margin: 10px;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.card:hover .intro{
+    font-size: 5rem;
+    height: fit-content;
+    bottom: 0;
+}
+
+.card:hover .intro p{
+    opacity: 1;
+    visibility: visible;
+    color: wheat;
+}
+
+.card:hover img{
+    transform: scale(1.1) rotate(-2deg);
+}
 
 
 .row-4 {
