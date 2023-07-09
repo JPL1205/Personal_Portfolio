@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SWE / DATA</title>
-    <link rel="stylesheet" href="ml.css">
+    <title>Project - Analysis</title>
+    <link rel="stylesheet" href="project.css">
     <script src="script.js" defer></script>
 </head>
 <body>
@@ -16,8 +16,8 @@
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="experience.html">EXPERIENCE</a></li>
-                    <li class="active"><a href="">SOFTWARE DEVELOPMENT & DATA</a></li>
-                    <li><a href="about.html">WEB & DESIGN</a></li>
+                    <li><a href="ml.html">SOFTWARE DEVELOPMENT & DATA</a></li>
+                    <li class="active"><a href="">ABOUT</a></li>
                 </ul>
                 <ul>
                     <li><a href=""><img src="assets/linkedin.png" alt="" class="icon"></a></li>
@@ -26,38 +26,27 @@
             </nav>
             <section>
                 <header class="major">
-                    <h5>WORKING TOWARD BECOMING A BETTER</h5>
-                    <h2>SOFTWARE DEVELOPMENT <br>ENGINEER</h2>
+                    <h2>Examining Stocks Trading Behavior by Congress Representatives</h2>
+                    <h5>Practicing -  web scraping  / data cleaning & visualization / probabilistic inference</h5>
                     <p>
-                        <em>I have curated a showcase that unveils the scope of my software development, machine learning and data science projects. <strong>As an aspiring</strong> software development engineer, I reveled in the spirit of collaboration in my early days as a team contributor. Over time, my passion for team dynamics and the art of leadership blossomed, propelling me to guide and inspire groups towards remarkable achievements. Beyond the technical facets, my insatiable curiosity has also led me to explore an array of captivating subjects.</em>
+                        <em>The following notebook analyzes publicly available information regarding stock trades made by US House of Representatives members to reach inferences. We first cleaned up the dataset and combined The 116th U.S. House of Representatives at https://www.kaggle.com/datasets/aavigan/house-of-representatives-congress-116 which contains information regarding political affiliation of congresspeople. Next, we evaluate the dataset's owner column's missingness association.
+
+                        </em>
                     </p>
-                    <h4>I invite you to Join with me</h4>
                 </header>
+                <div id="pdf-container">
+                    <h4>Details of the project:</h4>
+                    <object data="files/Stock-cleaning.pdf" type="" class="pdf"></object>
+                    <object data="files/Stock-analyzing.pdf" type="" class="pdf" id="bottom"></object>
+                
+                </div>
+                
             </section>
-            <div id="body">
-                <div class="project">
-                    <p>Dec. 2022 - Mar. 2023</p>
-                    <h4>Recommendation System with Latent Factor Collaborative Filter</h4>
-                    <div><img src="assets/lfm.png" alt="" class="image"></div>
-                    <a href="LFM-project.html">VIEW PROJECT DETAIL</a>
-                </div>
-                <div class="project">
-                    <p>Dec. 2022 - Mar. 2023</p>
-                    <h4>Airbnb Price Prediction with XGBoost and Tree Base Classification</h4>
-                    <div><img src="assets/xgboost.png" alt="" class="image"></div>
-                    <a href="AIRBNB-project.html">VIEW PROJECT DETAIL</a>
-                </div>
-                <div class="project">
-                    <p>Mar. 2022 - Jun. 2023</p>
-                    <h4>Stock Trading Behavior by Representative with Scikit-Learn</h4>
-                    <div><img src="assets/stock.png" alt="" class="image"></div>
-                    <a href="STOCK-project.html">VIEW PROJECT DETAIL</a>
-                </div>
-            </div>
+
             <div class="row-4">
-                <a href="index.html">HOME</a><a href="experience.html">EXPERIENCE</a><a href="about.html">WEB & DESIGN</a>
-                <a href="https://docs.google.com/document/d/1zatXl_vz4mN2WVqsab-DBFemWUMeNVvOMD7h6TBTgmQ/edit?usp=sharing" target="_blank">RESUME</a>
+                <a href="ml.html">RETURN TO SOFTWARE DEVELOPMENT PAGE</a>
             </div>
+
             <footer>
                 <form action="/submit_form" method="post">
                     <label for="fname">Name</label><br>
@@ -91,8 +80,6 @@
             </footer>
             
         </div>
-        
-        
     </div>
 </body>
 </html>
