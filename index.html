@@ -1,102 +1,150 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leo Portfolio</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" />
     <script src="script.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <button class="hamburger">
-        <div class="bar"></div>
+      <div class="bar"></div>
     </button>
-    <nav class="mobile-nav"><a href="experience.html">EXPERIENCE</a><a href="ml.html">SOFTWARE DEVELOPMENT & DATA</a><a href="about.html">WEB / DESIGN</a>
-        <img src="assets/name-logo.svg" alt="" id="name-logo">
+    <nav class="mobile-nav">
+      <a href="experience.html">EXPERIENCE</a
+      ><a href="ml.html">SOFTWARE DEVELOPMENT & DATA</a
+      ><a href="about.html">WEB / DESIGN</a>
+      <img src="assets/name-logo.svg" alt="" id="name-logo" />
     </nav>
     <div class="wrapper">
-        <div class="intro">
-            <img src="assets/Intro.svg" alt="" class="intro-svg">
-            <h3 class="intro-text">I LOVE CREATEING <br>MEANINGFUL CONTENTS</h3>
+      <div class="intro">
+        <img src="assets/Intro.svg" alt="" class="intro-svg" />
+        <h3 class="intro-text">I LOVE CREATEING <br />MEANINGFUL CONTENTS</h3>
+      </div>
+
+      <div class="main">
+        <nav>
+          <ul>
+            <li class="active"><a href="">HOME</a></li>
+            <li><a href="experience.html">EXPERIENCE</a></li>
+            <li><a href="ml.html">SOFTWARE DEVELOPMENT & DATA</a></li>
+            <li><a href="about.html">WEB & DESIGN</a></li>
+          </ul>
+          <ul>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/jian-peng-li-462417220/"
+                target="_blank"
+                ><img src="assets/linkedin.png" alt="" class="icon"
+              /></a>
+            </li>
+            <li>
+              <a href="https://github.com/JPL1205" target="_blank"
+                ><img src="assets/github.png" alt="" class="icon"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+        <section>
+          <header class="major">
+            <p id="greeting">Hello, I am</p>
+            <h2>JIAN-PENG (LEO) LI</h2>
+          </header>
+        </section>
+        <div id="body">
+          <p class="introduction">
+            My name is Jian-Peng Li, but you can call me Leo. I am an
+            undergraduate student at <u>UC San Diego</u>, double majoring in
+            <u>Math-Computer Science</u> and <u>Economics</u>, with a minor in
+            <u>Data Science</u>. I am set to graduate in Jan. 2025.
+            <br />
+            <br />
+            I moved to the United States from <u>Taiwan</u> and quickly fell in
+            love with the energetic environment, where everyone supports and
+            encourages each other to succeed. I enjoy working in a team vibe and
+            contributing my abilities. As a data science and economics student,
+            I like to conduct reasonable research on business and environmental
+            trends based on trustworthy data. I can process and analyze data in
+            order to construct stable and reliable explanations for what I am
+            curious about. Additionally, as a CS student, I enjoy exploring new
+            technologies and incorporating them into my own applications. I
+            always push myself to learn so that I can create the most up-to-date
+            and enjoyable content to share with others.
+          </p>
+          <img
+            src="assets/profile.png"
+            alt=""
+            class="profile-picture"
+            loading="lazy" />
         </div>
-        
-        <div class="main">
-            <nav>
-                <ul>
-                    <li class="active"><a href="">HOME</a></li>
-                    <li><a href="experience.html">EXPERIENCE</a></li>
-                    <li><a href="ml.html">SOFTWARE DEVELOPMENT & DATA</a></li>
-                    <li><a href="about.html">WEB & DESIGN</a></li>
-                </ul>
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/jian-peng-li-462417220/" target="_blank"><img src="assets/linkedin.png" alt="" class="icon"></a></li>
-                    <li><a href="https://github.com/JPL1205" target="_blank"><img src="assets/github.png" alt="" class="icon"></a></li>
-                </ul>
-            </nav>
-            <section>
-                <header class="major">
-                    <p id="greeting">Hello, I am</p>
-                    <h2>JIAN-PENG (LEO) LI</h2>
-                </header>
-            </section>
-            <div id="body">
-                <p class="introduction">
-                    My name is Jian-Peng Li, but you can call me Leo. I am an undergraduate student at <u>UC San Diego</u>, double majoring in <u>Math-Computer Science</u> and <u>Economics</u>, with a minor in <u>Data Science</u>. I am set to graduate in December 2024.
-                    <br>
-                    <br>
-                    I came to this country from <u>Taiwan</u> and quickly fell in love with the energetic environment, where everyone supports and encourages each other to succeed. I enjoy working with others and meeting new people. On the other hand, I also find joy in spending time alone in my room, focusing on coding and creating meaningful content. I also love riding my Super73 electric bike and taking leisurely rides during the stunning San Diego sunsets. In life, I always strive to explore new things and bring beauty to everything I do.
-                </p>
-                <img src="assets/profile.png" alt="" class="profile-picture">
-            </div>
-            <section>
-                <h3 class="skills-title">WHAT ABOUT MY SKILLS</h3>
-                <p class="skills">
-                    <strong>Programming Skills:</strong> Python, Java (OOP/TDD), JavaScript (Prototype), R<br>
-                    <strong>Machine Learning:</strong> Sklearn, Tree-based classification, Hyperparameter Tuning, SVM, k-means <br>
-                    <strong>Frontend:</strong> HTML / CSS, JavaScript, React.js <br>
-                    <strong>Backend:</strong> Node.js, PostgreSQL <br>
-                    <strong>Desgin:</strong> Figma, Photoshop <br>
-                    <strong>Soft Skills:</strong> Collabration, Critical Thinking, Detail Oriented
-                </p>
-            </section>
-            <div class="row-4">
-                <a href="experience.html">PAST EXPERIENCE</a><a href="ml.html">SOFTWARE DEVELOPMENT & DATA</a><a href="about.html">ABOUT</a>
-                <a href="https://docs.google.com/document/d/1zatXl_vz4mN2WVqsab-DBFemWUMeNVvOMD7h6TBTgmQ/edit?usp=sharing" target="_blank">RESUME</a>
-            </div>
-            <footer>
-                <form action="/submit_form" method="post">
-                    <label for="fname">Name</label><br>
-                    <input type="text" id="fname" name="fname" required><br>
-                    <label for="company">Company</label><br>
-                    <select id="position" name="position">
-                        <option value="developer">Individual</option>
-                        <option value="designer">Start Up</option>
-                        <option value="product_manager">Enterprise</option>
-                      </select><br>
-                    <label for="email">Email</label><br>
-                    <input type="text" id="email" name="email" required><br>
-                    <label for="message">Message</label><br>
-                    <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
-                    <input type="submit" value="SEND MESSAGE">
-                  </form> 
-                  <div class="link-container">
-                    <div class="link">
-                        <div class="title">Linkedin</div>
-                        <a href="https://www.linkedin.com/in/jian-peng-li-462417220/" target="_blank"><u>https://www.linkedin.com/in/jian-peng-li-462417220/</u></a>
-                    </div>
-                    <div class="link">
-                        <div class="title">Github</div>
-                        <a href="https://github.com/JPL1205" target="_blank"><u>https://github.com/JPL1205</u></a>
-                    </div>
-                    <div class="link">
-                        <div class="title">Email</div>
-                        <a href="mailto:jianpengli1205@gmail.com"><u>jianpengli1205@gmail.com</u></a>
-                    </div>
-                </div>
-            </footer>
-            
+        <section>
+          <h3 class="skills-title">WHAT ABOUT MY SKILLS</h3>
+          <p class="skills">
+            <strong>Programming Skills:</strong> Python, Java (OOP/TDD),
+            JavaScript (Prototype), R<br />
+            <strong>Machine Learning:</strong> Sklearn, Tree-based
+            classification, Hyperparameter Tuning, SVM, k-means <br />
+            <strong>Frontend:</strong> HTML / CSS, JavaScript, React.js <br />
+            <strong>Backend:</strong> Node.js, PostgreSQL <br />
+            <strong>Desgin:</strong> Figma, Photoshop <br />
+            <strong>Economy:</strong> Game Theory, Econometric, Data Processing
+            and Analysis, Financial / Managerial Accounting<br />
+            <strong>Soft Skills:</strong> Collabration, Critical Thinking,
+            Detail Oriented
+          </p>
+        </section>
+        <div class="row-4">
+          <a href="experience.html">PAST EXPERIENCE</a
+          ><a href="ml.html">SOFTWARE DEVELOPMENT & DATA</a
+          ><a href="about.html">ABOUT</a>
+          <a
+            href="https://docs.google.com/document/d/1zatXl_vz4mN2WVqsab-DBFemWUMeNVvOMD7h6TBTgmQ/edit?usp=sharing"
+            target="_blank"
+            >RESUME</a
+          >
         </div>
-        
+        <footer>
+          <form action="/submit_form" method="post">
+            <label for="fname">Name</label><br />
+            <input type="text" id="fname" name="fname" required /><br />
+            <label for="company">Company</label><br />
+            <select id="position" name="position">
+              <option value="developer">Individual</option>
+              <option value="designer">Start Up</option>
+              <option value="product_manager">Enterprise</option></select
+            ><br />
+            <label for="email">Email</label><br />
+            <input type="text" id="email" name="email" required /><br />
+            <label for="message">Message</label><br />
+            <textarea id="message" name="message" rows="4" cols="50"></textarea
+            ><br />
+            <input type="submit" value="SEND MESSAGE" />
+          </form>
+          <div class="link-container">
+            <div class="link">
+              <div class="title">Linkedin</div>
+              <a
+                href="https://www.linkedin.com/in/jian-peng-li-462417220/"
+                target="_blank"
+                ><u>https://www.linkedin.com/in/jian-peng-li-462417220/</u></a
+              >
+            </div>
+            <div class="link">
+              <div class="title">Github</div>
+              <a href="https://github.com/JPL1205" target="_blank"
+                ><u>https://github.com/JPL1205</u></a
+              >
+            </div>
+            <div class="link">
+              <div class="title">Email</div>
+              <a href="mailto:jianpengli1205@gmail.com"
+                ><u>jianpengli1205@gmail.com</u></a
+              >
+            </div>
+          </div>
+        </footer>
+      </div>
     </div>
-</body>
+  </body>
 </html>
