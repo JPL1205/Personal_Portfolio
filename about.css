@@ -367,6 +367,11 @@ a:hover {
   form {
     width: 100%;
   }
+  .wrapper {
+    padding: 0;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+  }
   .link-container {
     width: 100%;
     padding: 0;
