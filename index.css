@@ -390,6 +390,7 @@ a:hover {
   .wrapper {
     /* padding-right: 1rem; */
     padding: 0;
+    padding-bottom: 2rem;
   }
   footer {
     padding: 2rem;
