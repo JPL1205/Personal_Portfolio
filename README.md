@@ -1,5 +1,4 @@
 # Personal_Portfolio
-
 This is my personal portfolio, which showcases various projects and works of mine across domains such as Deep Learning (DL), Machine Learning (ML), Data Processing, and Web Development. You can view the website at https://jianpengli.com/ and feel free to drop me a message :) 
 
 <br/>
