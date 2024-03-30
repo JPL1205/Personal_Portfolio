@@ -3,32 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Leo | SWE DSC</title>
-    <link rel="stylesheet" href="ml.css" />
+    <title>Project - LFM</title>
+    <link rel="stylesheet" href="project.css" />
     <link rel="icon" href="assets/icon.png" />
     <script src="script.js" defer></script>
   </head>
   <body>
-    <button class="hamburger">
-      <div class="bar"></div>
-    </button>
-    <nav class="mobile-nav">
-      <a href="index.html">HOME</a><a href="experience.html">EXPERIENCE</a
-      ><a href="about.html">WEB DEVELOPMENT</a>
-      <img src="assets/name-logo.svg" alt="" id="name-logo" />
-    </nav>
-
     <div class="wrapper">
       <header id="header"><a href="">PROJECT SHOWCASE</a></header>
+
       <div id="main">
         <nav>
           <ul>
             <li><a href="index.html">HOME</a></li>
             <li><a href="experience.html">EXPERIENCE</a></li>
-            <li class="active">
-              <a href="ml.html">DATA SCIENCE</a>
-            </li>
-            <li><a href="about.html">WEB DEVELOPMENT</a></li>
+            <li><a href="ml.html">DATA SCIENCE</a></li>
+            <li class="active"><a href="">ABOUT</a></li>
           </ul>
           <ul>
             <li>
@@ -45,69 +35,41 @@
             </li>
           </ul>
         </nav>
+
         <section>
           <header class="major">
-            <h5>WORKING TOWARD BECOMING A BETTER</h5>
-            <h2>DATA SCIENTIST</h2>
+            <h2>Anime-Style Image Translation Using GANs</h2>
+            <h5>Practicing - Pytorch / GAN in Python</h5>
             <p>
-              <em>
-                The projects showcased on this page include practices in
-                <u>machine learning</u>, <u>data processing</u>,
-                <u>and data analyzing</u> projects. This showcase serves as a
-                testament to my relentless pursuit of becoming a highly skilled
-                and accomplished <u>data scientist.</u></em
+              <em
+                >This project explores the application of Generative Adversarial
+                Net- works (GANs) for the task of transforming real-world images
+                into anime- style images. We implemented a GAN architecture that
+                leverages Residual Blocks within the generator to enhance the
+                translation. The dataset we choose comprises real-world images
+                from COCO dataset and corresponding anime-style from
+                https://www.kaggle.com/alamson/safebooru, with the latter
+                undergoing a smoothing process for improved style consistency.
+                The results demonstrate the model’s ability to translate the
+                style of input images, presenting a novel application of GANs in
+                the domain of animate image transformation.</em
               >
             </p>
-            <h4>I invite you to Join with me</h4>
           </header>
+          <div id="pdf-container">
+            <h4>Details of our project:</h4>
+            <object
+              data="files/Anime-Style Image Translation Using GANs.pdf"
+              type=""
+              class="pdf"></object>
+          </div>
         </section>
-        <div id="body">
-          <div class="project">
-            <p>Dec. 2023 - Mar. 2024</p>
-            <h4>Anime-Style Image Translation Using GANs</h4>
-            <div class="project-image-wrapper">
-              <img src="assets/GAN.png" alt="" class="image" />
-            </div>
-            <a href="GAN.html">VIEW PROJECT DETAIL</a>
-          </div>
-          <div class="project">
-            <p>Dec. 2022 - Mar. 2023</p>
-            <h4>
-              Recommendation System with Latent Factor Collaborative Filter
-            </h4>
-            <div class="project-image-wrapper">
-              <img src="assets/lfm.png" alt="" class="image" />
-            </div>
-            <a href="LFM-project.html">VIEW PROJECT DETAIL</a>
-          </div>
-          <div class="project">
-            <p>Dec. 2022 - Mar. 2023</p>
-            <h4>
-              Airbnb Price Prediction with XGBoost and Tree Base Classification
-            </h4>
-            <div class="project-image-wrapper">
-              <img src="assets/xgboost.png" alt="" class="image" />
-            </div>
-            <a href="AIRBNB-project.html">VIEW PROJECT DETAIL</a>
-          </div>
-          <div class="project">
-            <p>Mar. 2022 - Jun. 2023</p>
-            <h4>Stock Trading Behavior by Representative with Scikit-Learn</h4>
-            <div class="project-image-wrapper">
-              <img src="assets/stock.png" alt="" class="image" />
-            </div>
-            <a href="STOCK-project.html">VIEW PROJECT DETAIL</a>
-          </div>
-        </div>
+
         <div class="row-4">
-          <a href="index.html">HOME</a><a href="experience.html">EXPERIENCE</a
-          ><a href="about.html">WEB DEVELOPMENT</a>
-          <a
-            href="https://docs.google.com/document/d/1sw54qki9tKfQWqf0_qLER4R_ez0-4o3tUauDe6ZedO0/edit?usp=sharing"
-            target="_blank"
-            >RESUME</a
-          >
+          <a href="ml.html">RETURN TO DATA SCIENCE PAGE</a
+          ><a href="AIRBNB-project.html">VIEW THE NEXT PROJECT</a>
         </div>
+
         <footer>
           <form action="https://formspree.io/f/mqkvqevz" method="POST">
             <label for="fname">Name</label><br />
