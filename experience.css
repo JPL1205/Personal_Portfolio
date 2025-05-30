@@ -22,7 +22,7 @@ body {
   font-weight: 600;
   color: white;
   background: var(--body-bg);
-  background: url(assets/giesel-2.jpeg);
+  background: url(assets/Cornell\ tech.jpeg);
   letter-spacing: 0.5px;
 }
 
@@ -256,7 +256,7 @@ textarea:focus {
 input[type='button'],
 input[type='submit'],
 input[type='reset'] {
-  background-color: var(--hover-color);
+  background-color: rgb(65, 156, 65);
   border: none;
   border-radius: 4px;
   color: white;
